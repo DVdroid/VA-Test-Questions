@@ -8,22 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		D6CE73CB2455CEDA00D3F548 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CE73CA2455CEDA00D3F548 /* AppDelegate.swift */; };
-		D6CE73CD2455CEDA00D3F548 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CE73CC2455CEDA00D3F548 /* SceneDelegate.swift */; };
 		D6CE73CF2455CEDA00D3F548 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CE73CE2455CEDA00D3F548 /* ViewController.swift */; };
 		D6CE73D22455CEDA00D3F548 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6CE73D02455CEDA00D3F548 /* Main.storyboard */; };
 		D6CE73D42455CEDC00D3F548 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6CE73D32455CEDC00D3F548 /* Assets.xcassets */; };
 		D6CE73D72455CEDC00D3F548 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6CE73D52455CEDC00D3F548 /* LaunchScreen.storyboard */; };
+		D6CE73DF2455CF3C00D3F548 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CE73DE2455CF3C00D3F548 /* FizzBuzz.swift */; };
+		D6CE73E12455D12800D3F548 /* RuntimeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CE73E02455D12800D3F548 /* RuntimeCalculator.swift */; };
+		D6CE73E32455D17D00D3F548 /* CreatePassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CE73E22455D17D00D3F548 /* CreatePassword.swift */; };
+		D6CE73E52455D1CB00D3F548 /* CalculateMinUniqueIDs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CE73E42455D1CB00D3F548 /* CalculateMinUniqueIDs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D6CE73C72455CEDA00D3F548 /* VA-Test-Questions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VA-Test-Questions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6CE73CA2455CEDA00D3F548 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D6CE73CC2455CEDA00D3F548 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D6CE73CE2455CEDA00D3F548 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D6CE73D12455CEDA00D3F548 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D6CE73D32455CEDC00D3F548 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6CE73D62455CEDC00D3F548 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6CE73D82455CEDC00D3F548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6CE73DE2455CF3C00D3F548 /* FizzBuzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
+		D6CE73E02455D12800D3F548 /* RuntimeCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuntimeCalculator.swift; sourceTree = "<group>"; };
+		D6CE73E22455D17D00D3F548 /* CreatePassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePassword.swift; sourceTree = "<group>"; };
+		D6CE73E42455D1CB00D3F548 /* CalculateMinUniqueIDs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateMinUniqueIDs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +63,15 @@
 			isa = PBXGroup;
 			children = (
 				D6CE73CA2455CEDA00D3F548 /* AppDelegate.swift */,
-				D6CE73CC2455CEDA00D3F548 /* SceneDelegate.swift */,
 				D6CE73CE2455CEDA00D3F548 /* ViewController.swift */,
 				D6CE73D02455CEDA00D3F548 /* Main.storyboard */,
 				D6CE73D32455CEDC00D3F548 /* Assets.xcassets */,
 				D6CE73D52455CEDC00D3F548 /* LaunchScreen.storyboard */,
 				D6CE73D82455CEDC00D3F548 /* Info.plist */,
+				D6CE73DE2455CF3C00D3F548 /* FizzBuzz.swift */,
+				D6CE73E02455D12800D3F548 /* RuntimeCalculator.swift */,
+				D6CE73E22455D17D00D3F548 /* CreatePassword.swift */,
+				D6CE73E42455D1CB00D3F548 /* CalculateMinUniqueIDs.swift */,
 			);
 			path = "VA-Test-Questions";
 			sourceTree = "<group>";
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6CE73E12455D12800D3F548 /* RuntimeCalculator.swift in Sources */,
 				D6CE73CF2455CEDA00D3F548 /* ViewController.swift in Sources */,
 				D6CE73CB2455CEDA00D3F548 /* AppDelegate.swift in Sources */,
-				D6CE73CD2455CEDA00D3F548 /* SceneDelegate.swift in Sources */,
+				D6CE73E52455D1CB00D3F548 /* CalculateMinUniqueIDs.swift in Sources */,
+				D6CE73DF2455CF3C00D3F548 /* FizzBuzz.swift in Sources */,
+				D6CE73E32455D17D00D3F548 /* CreatePassword.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
