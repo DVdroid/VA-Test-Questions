@@ -12,8 +12,6 @@ final class MaxSum_HourGlass {
 
     class func maxSumAmongAllHourGlasses(in array: [[Int]]) -> Int {
         var sum = Int.min
-        var yIndex = 0
-        var xIndex = 0
 
         func maxSumForHourGlasses(in array: [[Int]], from yIndex: Int, to xIndex: Int) {
 

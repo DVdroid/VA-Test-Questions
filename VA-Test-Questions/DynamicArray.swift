@@ -54,8 +54,7 @@ final class DynamicArray {
         var seqList: [Int: [Int]] = [:]
         var printArray: [Int] = []
         var lastAnswer = 0
-        var startIndex = 0
-        var endIndex = 0
+        let startIndex = 0
 
         func process(queries: [[Int]], for startIndex: Int) {
 

@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D66B30FF24607C6B00810290 /* SockMerchant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66B30FE24607C6B00810290 /* SockMerchant.swift */; };
+		D66B3101246085D700810290 /* CountingValleys.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66B3100246085D700810290 /* CountingValleys.swift */; };
+		D69BBE12245EC5D200D6E6E6 /* ArrayPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69BBE11245EC5D200D6E6E6 /* ArrayPairs.swift */; };
 		D6AFD67C245C111D0021D081 /* MaxSum_HourGlass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AFD67B245C111D0021D081 /* MaxSum_HourGlass.swift */; };
 		D6AFD67E245C2B150021D081 /* DynamicArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AFD67D245C2B150021D081 /* DynamicArray.swift */; };
+		D6AFD6B3245D73A70021D081 /* ArrayManipulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AFD6B2245D73A70021D081 /* ArrayManipulation.swift */; };
 		D6CE73CB2455CEDA00D3F548 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CE73CA2455CEDA00D3F548 /* AppDelegate.swift */; };
 		D6CE73CF2455CEDA00D3F548 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CE73CE2455CEDA00D3F548 /* ViewController.swift */; };
 		D6CE73D22455CEDA00D3F548 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6CE73D02455CEDA00D3F548 /* Main.storyboard */; };
@@ -22,8 +26,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D66B30FE24607C6B00810290 /* SockMerchant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SockMerchant.swift; sourceTree = "<group>"; };
+		D66B3100246085D700810290 /* CountingValleys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingValleys.swift; sourceTree = "<group>"; };
+		D69BBE11245EC5D200D6E6E6 /* ArrayPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayPairs.swift; sourceTree = "<group>"; };
 		D6AFD67B245C111D0021D081 /* MaxSum_HourGlass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxSum_HourGlass.swift; sourceTree = "<group>"; };
 		D6AFD67D245C2B150021D081 /* DynamicArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicArray.swift; sourceTree = "<group>"; };
+		D6AFD6B2245D73A70021D081 /* ArrayManipulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayManipulation.swift; sourceTree = "<group>"; };
 		D6CE73C72455CEDA00D3F548 /* VA-Test-Questions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VA-Test-Questions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6CE73CA2455CEDA00D3F548 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6CE73CE2455CEDA00D3F548 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +89,10 @@
 				D6CE74342457039200D3F548 /* MaxMinSubsetDiff.swift */,
 				D6AFD67B245C111D0021D081 /* MaxSum_HourGlass.swift */,
 				D6AFD67D245C2B150021D081 /* DynamicArray.swift */,
+				D6AFD6B2245D73A70021D081 /* ArrayManipulation.swift */,
+				D69BBE11245EC5D200D6E6E6 /* ArrayPairs.swift */,
+				D66B30FE24607C6B00810290 /* SockMerchant.swift */,
+				D66B3100246085D700810290 /* CountingValleys.swift */,
 			);
 			path = "VA-Test-Questions";
 			sourceTree = "<group>";
@@ -156,12 +168,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6AFD6B3245D73A70021D081 /* ArrayManipulation.swift in Sources */,
 				D6CE73E12455D12800D3F548 /* RuntimeCalculator.swift in Sources */,
 				D6CE73CF2455CEDA00D3F548 /* ViewController.swift in Sources */,
 				D6CE73CB2455CEDA00D3F548 /* AppDelegate.swift in Sources */,
 				D6AFD67E245C2B150021D081 /* DynamicArray.swift in Sources */,
 				D6AFD67C245C111D0021D081 /* MaxSum_HourGlass.swift in Sources */,
 				D6CE74352457039200D3F548 /* MaxMinSubsetDiff.swift in Sources */,
+				D66B3101246085D700810290 /* CountingValleys.swift in Sources */,
+				D66B30FF24607C6B00810290 /* SockMerchant.swift in Sources */,
+				D69BBE12245EC5D200D6E6E6 /* ArrayPairs.swift in Sources */,
 				D6CE73E52455D1CB00D3F548 /* CalculateMinUniqueIDs.swift in Sources */,
 				D6CE73DF2455CF3C00D3F548 /* FizzBuzz.swift in Sources */,
 				D6CE73E32455D17D00D3F548 /* CreatePassword.swift in Sources */,

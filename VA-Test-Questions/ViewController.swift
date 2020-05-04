@@ -120,16 +120,45 @@ class ViewController: UIViewController {
     [1 ,196104599 ,690080895],
     [1 ,527554061 ,434103342]]
 
-//    let anotherTwoDArray: [[Int]] = [
-//        [1 ,0, 5],
-//        [1 ,1, 7],
-//        [1 ,0, 3],
-//        [2 ,1, 0],
-//        [2 ,1, 1]
-//    ]
+let oneMoreTwoDArray: [[Int]] =
+    [[0,0,0, 0, 0,0,0,0,0, 0],
+    [3,3,3, 3, 3,0,0,0,0, 0],
+    [3,3,3,10,10,7,7,7,0, 0],
+    [3,3,3,10,10,8,8,8,1, 0]]
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
+let arrayManipulationQuery = [[29, 40, 787],
+[9 ,26 ,219],
+[21 ,31 ,214],
+[8 ,22 ,719],
+[15 ,23 ,102],
+[11 ,24 ,83],
+[14 ,22 ,321],
+[5 ,22 ,300],
+[11 ,30 ,832],
+[5 ,25 ,29],
+[16 ,24 ,577],
+[3 ,10 ,905],
+[15 ,22 ,335],
+[29 ,35 ,254],
+[9 ,20 ,20],
+[33 ,34 ,351],
+[30 ,38 ,564],
+[11 ,31 ,969],
+[3 ,32 ,11],
+[29 ,35 ,267],
+[4 ,24 ,531],
+[1 ,38 ,892],
+[12 ,18 ,825],
+[25 ,32 ,99],
+[3 ,39 ,107],
+[12 ,37 ,131],
+[3 ,26 ,640],
+[8 ,39 ,483],
+[8 ,11 ,194],
+[12 ,37 ,502]]
+
+override func viewDidLoad() {
+    super.viewDidLoad()
         // Do any additional setup after loading the view.
 
         //print(MaxMinSubsetDiff.maxMinSubsetDiff())
@@ -138,14 +167,18 @@ class ViewController: UIViewController {
 
         //print(MaxSum_HourGlass.maxSumAmongAllHourGlasses(in: twoDArray))
 
-        let duration1 = RuntimeCalculator.duration {
-            print(DynamicArray.dynamicArray(n: 2, queries: anotherTwoDArray))
-        }
-        let duration2 = RuntimeCalculator.duration {
-            print(DynamicArray.dynamicArrayUsingRecursion(n: 2, queries: anotherTwoDArray))
-        }
-        print(duration1, duration2)
-        print(RuntimeCalculator.compare(timeInterval1: duration1, timeInterval2: duration2))
+//        let duration1 = RuntimeCalculator.duration {
+//            print(DynamicArray.dynamicArray(n: 2, queries: anotherTwoDArray))
+//        }
+//        let duration2 = RuntimeCalculator.duration {
+//            print(DynamicArray.dynamicArrayUsingRecursion(n: 2, queries: anotherTwoDArray))
+//        }
+//        print(duration1, duration2)
+//        print(RuntimeCalculator.compare(timeInterval1: duration1, timeInterval2: duration2))
+
+        //print(ArrayManipulation.arrayManipulation(n: 40, queries: arrayManipulationQuery))
+    //print(ArrayPairs.findArrayPairs(in: [1, 1, 2, 4, 2]))
+    print(SockMerchant.findPairCount(in: [10 ,20 ,20 ,10 ,10 ,30 ,50 ,10 ,20]))
     }
 }
 
