@@ -12,27 +12,18 @@ final class CountingValleys {
 
     class func countingValleys(n: Int, s: String) -> Int {
 
-        var downPathStack:[Character] = []
-        var upwardCounter = 0
+        var levelCount = 0
         var valleyCount = 0
 
         for character in s {
             switch  character {
             case "U":
-                if downPathStack.isEmpty {
-                    upwardCounter += 1
-                } else {
-                    downPathStack.removeLast()
-                    if downPathStack.isEmpty {
-                        valleyCount += 1
-                    }
+                levelCount += 1
+                if levelCount == 0 {
+                    valleyCount += 1
                 }
             case "D":
-                if upwardCounter > 0 {
-                    upwardCounter -= 1
-                } else {
-                    downPathStack.append(character)
-                }
+                levelCount -= 1
             default:
                 print("Invalid character")
             }
