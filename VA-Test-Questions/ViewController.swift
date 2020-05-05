@@ -177,8 +177,10 @@ override func viewDidLoad() {
 //        print(RuntimeCalculator.compare(timeInterval1: duration1, timeInterval2: duration2))
 
         //print(ArrayManipulation.arrayManipulation(n: 40, queries: arrayManipulationQuery))
-    //print(ArrayPairs.findArrayPairs(in: [1, 1, 2, 4, 2]))
-    print(SockMerchant.findPairCount(in: [10 ,20 ,20 ,10 ,10 ,30 ,50 ,10 ,20]))
+        //print(ArrayPairs.findArrayPairs(in: [1, 1, 2, 4, 2]))
+        //print(SockMerchant.findPairCount(in: [10 ,20 ,20 ,10 ,10 ,30 ,50 ,10 ,20]))
+        print(JumpingOnTheCloud.jumpingOnClouds(c: [0, 0, 0, 0 ,1, 0]))
+        //print(RepeatedString.repeatedString(s: "aba", n: 10))
     }
 }
 
