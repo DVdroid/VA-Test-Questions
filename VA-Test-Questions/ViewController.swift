@@ -179,8 +179,11 @@ override func viewDidLoad() {
         //print(ArrayManipulation.arrayManipulation(n: 40, queries: arrayManipulationQuery))
         //print(ArrayPairs.findArrayPairs(in: [1, 1, 2, 4, 2]))
         //print(SockMerchant.findPairCount(in: [10 ,20 ,20 ,10 ,10 ,30 ,50 ,10 ,20]))
-        print(JumpingOnTheCloud.jumpingOnClouds(c: [0, 0, 0, 0 ,1, 0]))
+        //print(JumpingOnTheCloud.jumpingOnClouds(c: [0, 0, 0, 0 ,1, 0]))
         //print(RepeatedString.repeatedString(s: "aba", n: 10))
+        //print(ArrayRotation.rotateLeft(a: [1, 2, 3, 4, 5], d: 3))
+        print(ArrayRotation.rotateLeftWithRecursion(a:  [1, 2, 3, 4, 5], d: 3))
+        //print(NewYearChaos.minimumBribes(q: [1, 2, 5, 3, 7, 8, 6, 4]))
     }
 }
 
