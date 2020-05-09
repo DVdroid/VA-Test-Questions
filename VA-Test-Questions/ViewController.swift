@@ -182,8 +182,12 @@ override func viewDidLoad() {
         //print(JumpingOnTheCloud.jumpingOnClouds(c: [0, 0, 0, 0 ,1, 0]))
         //print(RepeatedString.repeatedString(s: "aba", n: 10))
         //print(ArrayRotation.rotateLeft(a: [1, 2, 3, 4, 5], d: 3))
-        print(ArrayRotation.rotateLeftWithRecursion(a:  [1, 2, 3, 4, 5], d: 3))
+        //print(ArrayRotation.rotateLeftWithRecursion(a:  [1, 2, 3, 4, 5], d: 3))
         //print(NewYearChaos.minimumBribes(q: [1, 2, 5, 3, 7, 8, 6, 4]))
+        //print(Ransome_Note.checkMagazine(magazine: ["give" ,"me" ,"one" ,"grand" ,"today" ,"night"],
+                                     //note: ["give" ,"me" ,"one" ,"grand" ,"today"]))
+        //print(Two_Strings.twoStrings(s1: "hello", s2: "world"))
+        print(SherlockAnagrams.sherlockAndAnagrams(s: "kkkk"))
     }
 }
 

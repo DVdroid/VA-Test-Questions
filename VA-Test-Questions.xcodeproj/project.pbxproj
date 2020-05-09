@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D603BA9524647FA8005DE362 /* Two_Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D603BA9424647FA8005DE362 /* Two_Strings.swift */; };
+		D603BA972464874B005DE362 /* SherlockAnagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = D603BA962464874B005DE362 /* SherlockAnagrams.swift */; };
 		D66B30FF24607C6B00810290 /* SockMerchant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66B30FE24607C6B00810290 /* SockMerchant.swift */; };
 		D66B3101246085D700810290 /* CountingValleys.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66B3100246085D700810290 /* CountingValleys.swift */; };
 		D66B31052461CFBC00810290 /* JumpingOnTheCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66B31042461CFBC00810290 /* JumpingOnTheCloud.swift */; };
 		D66B31072461E07600810290 /* RepeatedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66B31062461E07600810290 /* RepeatedString.swift */; };
 		D66B316824630DB500810290 /* ArrayRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66B316724630DB500810290 /* ArrayRotation.swift */; };
 		D66B316A24631DB400810290 /* NewYearChaos.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66B316924631DB400810290 /* NewYearChaos.swift */; };
+		D66B316C2464750500810290 /* Ransom_Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66B316B2464750500810290 /* Ransom_Note.swift */; };
 		D69BBE12245EC5D200D6E6E6 /* ArrayPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69BBE11245EC5D200D6E6E6 /* ArrayPairs.swift */; };
 		D6AFD67C245C111D0021D081 /* MaxSum_HourGlass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AFD67B245C111D0021D081 /* MaxSum_HourGlass.swift */; };
 		D6AFD67E245C2B150021D081 /* DynamicArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AFD67D245C2B150021D081 /* DynamicArray.swift */; };
@@ -30,12 +33,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D603BA9424647FA8005DE362 /* Two_Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Two_Strings.swift; sourceTree = "<group>"; };
+		D603BA962464874B005DE362 /* SherlockAnagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SherlockAnagrams.swift; sourceTree = "<group>"; };
 		D66B30FE24607C6B00810290 /* SockMerchant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SockMerchant.swift; sourceTree = "<group>"; };
 		D66B3100246085D700810290 /* CountingValleys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingValleys.swift; sourceTree = "<group>"; };
 		D66B31042461CFBC00810290 /* JumpingOnTheCloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpingOnTheCloud.swift; sourceTree = "<group>"; };
 		D66B31062461E07600810290 /* RepeatedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatedString.swift; sourceTree = "<group>"; };
 		D66B316724630DB500810290 /* ArrayRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayRotation.swift; sourceTree = "<group>"; };
 		D66B316924631DB400810290 /* NewYearChaos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewYearChaos.swift; sourceTree = "<group>"; };
+		D66B316B2464750500810290 /* Ransom_Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ransom_Note.swift; sourceTree = "<group>"; };
 		D69BBE11245EC5D200D6E6E6 /* ArrayPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayPairs.swift; sourceTree = "<group>"; };
 		D6AFD67B245C111D0021D081 /* MaxSum_HourGlass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxSum_HourGlass.swift; sourceTree = "<group>"; };
 		D6AFD67D245C2B150021D081 /* DynamicArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicArray.swift; sourceTree = "<group>"; };
@@ -83,6 +89,9 @@
 				D66B31062461E07600810290 /* RepeatedString.swift */,
 				D66B316724630DB500810290 /* ArrayRotation.swift */,
 				D66B316924631DB400810290 /* NewYearChaos.swift */,
+				D66B316B2464750500810290 /* Ransom_Note.swift */,
+				D603BA9424647FA8005DE362 /* Two_Strings.swift */,
+				D603BA962464874B005DE362 /* SherlockAnagrams.swift */,
 			);
 			name = Problems;
 			sourceTree = "<group>";
@@ -189,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6AFD6B3245D73A70021D081 /* ArrayManipulation.swift in Sources */,
+				D66B316C2464750500810290 /* Ransom_Note.swift in Sources */,
 				D6CE73E12455D12800D3F548 /* RuntimeCalculator.swift in Sources */,
 				D66B316A24631DB400810290 /* NewYearChaos.swift in Sources */,
 				D6CE73CF2455CEDA00D3F548 /* ViewController.swift in Sources */,
@@ -196,6 +206,8 @@
 				D6AFD67E245C2B150021D081 /* DynamicArray.swift in Sources */,
 				D6AFD67C245C111D0021D081 /* MaxSum_HourGlass.swift in Sources */,
 				D6CE74352457039200D3F548 /* MaxMinSubsetDiff.swift in Sources */,
+				D603BA9524647FA8005DE362 /* Two_Strings.swift in Sources */,
+				D603BA972464874B005DE362 /* SherlockAnagrams.swift in Sources */,
 				D66B3101246085D700810290 /* CountingValleys.swift in Sources */,
 				D66B31072461E07600810290 /* RepeatedString.swift in Sources */,
 				D66B30FF24607C6B00810290 /* SockMerchant.swift in Sources */,
