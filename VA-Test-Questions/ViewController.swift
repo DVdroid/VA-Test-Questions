@@ -187,7 +187,15 @@ override func viewDidLoad() {
         //print(Ransome_Note.checkMagazine(magazine: ["give" ,"me" ,"one" ,"grand" ,"today" ,"night"],
                                      //note: ["give" ,"me" ,"one" ,"grand" ,"today"]))
         //print(Two_Strings.twoStrings(s1: "hello", s2: "world"))
-        print(SherlockAnagrams.sherlockAndAnagrams(s: "kkkk"))
+        //print(SherlockAnagrams.sherlockAndAnagrams(s: "kkkk"))
+        //print(Min_Swaps.minimumSwaps(arr: [1, 3, 5, 2, 4, 6, 7]))
+
+        /*
+        var cost = [0, 1, 2, 3, 4, 5]
+        var string = "abccbd"
+        print(Codility.solution(&string, &cost))*/
+
+        print(CountTriplets.countTriplets(arr: [1, 3, 9, 9, 27, 81], r: 3))
     }
 }
 

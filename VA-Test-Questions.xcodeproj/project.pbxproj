@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		D603BA9524647FA8005DE362 /* Two_Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D603BA9424647FA8005DE362 /* Two_Strings.swift */; };
 		D603BA972464874B005DE362 /* SherlockAnagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = D603BA962464874B005DE362 /* SherlockAnagrams.swift */; };
+		D603BAB72466A985005DE362 /* Min_Swaps.swift in Sources */ = {isa = PBXBuildFile; fileRef = D603BAB62466A985005DE362 /* Min_Swaps.swift */; };
+		D603BAB92466BE93005DE362 /* Codility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D603BAB82466BE93005DE362 /* Codility.swift */; };
+		D660A5E424683E200083228D /* CountTriplets.swift in Sources */ = {isa = PBXBuildFile; fileRef = D660A5E324683E200083228D /* CountTriplets.swift */; };
 		D66B30FF24607C6B00810290 /* SockMerchant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66B30FE24607C6B00810290 /* SockMerchant.swift */; };
 		D66B3101246085D700810290 /* CountingValleys.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66B3100246085D700810290 /* CountingValleys.swift */; };
 		D66B31052461CFBC00810290 /* JumpingOnTheCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66B31042461CFBC00810290 /* JumpingOnTheCloud.swift */; };
@@ -35,6 +38,9 @@
 /* Begin PBXFileReference section */
 		D603BA9424647FA8005DE362 /* Two_Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Two_Strings.swift; sourceTree = "<group>"; };
 		D603BA962464874B005DE362 /* SherlockAnagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SherlockAnagrams.swift; sourceTree = "<group>"; };
+		D603BAB62466A985005DE362 /* Min_Swaps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Min_Swaps.swift; sourceTree = "<group>"; };
+		D603BAB82466BE93005DE362 /* Codility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codility.swift; sourceTree = "<group>"; };
+		D660A5E324683E200083228D /* CountTriplets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountTriplets.swift; sourceTree = "<group>"; };
 		D66B30FE24607C6B00810290 /* SockMerchant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SockMerchant.swift; sourceTree = "<group>"; };
 		D66B3100246085D700810290 /* CountingValleys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingValleys.swift; sourceTree = "<group>"; };
 		D66B31042461CFBC00810290 /* JumpingOnTheCloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpingOnTheCloud.swift; sourceTree = "<group>"; };
@@ -92,6 +98,9 @@
 				D66B316B2464750500810290 /* Ransom_Note.swift */,
 				D603BA9424647FA8005DE362 /* Two_Strings.swift */,
 				D603BA962464874B005DE362 /* SherlockAnagrams.swift */,
+				D603BAB62466A985005DE362 /* Min_Swaps.swift */,
+				D603BAB82466BE93005DE362 /* Codility.swift */,
+				D660A5E324683E200083228D /* CountTriplets.swift */,
 			);
 			name = Problems;
 			sourceTree = "<group>";
@@ -197,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D603BAB72466A985005DE362 /* Min_Swaps.swift in Sources */,
 				D6AFD6B3245D73A70021D081 /* ArrayManipulation.swift in Sources */,
 				D66B316C2464750500810290 /* Ransom_Note.swift in Sources */,
 				D6CE73E12455D12800D3F548 /* RuntimeCalculator.swift in Sources */,
@@ -205,6 +215,7 @@
 				D6CE73CB2455CEDA00D3F548 /* AppDelegate.swift in Sources */,
 				D6AFD67E245C2B150021D081 /* DynamicArray.swift in Sources */,
 				D6AFD67C245C111D0021D081 /* MaxSum_HourGlass.swift in Sources */,
+				D660A5E424683E200083228D /* CountTriplets.swift in Sources */,
 				D6CE74352457039200D3F548 /* MaxMinSubsetDiff.swift in Sources */,
 				D603BA9524647FA8005DE362 /* Two_Strings.swift in Sources */,
 				D603BA972464874B005DE362 /* SherlockAnagrams.swift in Sources */,
@@ -212,6 +223,7 @@
 				D66B31072461E07600810290 /* RepeatedString.swift in Sources */,
 				D66B30FF24607C6B00810290 /* SockMerchant.swift in Sources */,
 				D69BBE12245EC5D200D6E6E6 /* ArrayPairs.swift in Sources */,
+				D603BAB92466BE93005DE362 /* Codility.swift in Sources */,
 				D6CE73E52455D1CB00D3F548 /* CalculateMinUniqueIDs.swift in Sources */,
 				D66B31052461CFBC00810290 /* JumpingOnTheCloud.swift in Sources */,
 				D66B316824630DB500810290 /* ArrayRotation.swift in Sources */,
