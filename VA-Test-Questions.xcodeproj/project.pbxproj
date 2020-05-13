@@ -20,6 +20,8 @@
 		D66B316A24631DB400810290 /* NewYearChaos.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66B316924631DB400810290 /* NewYearChaos.swift */; };
 		D66B316C2464750500810290 /* Ransom_Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66B316B2464750500810290 /* Ransom_Note.swift */; };
 		D69BBE12245EC5D200D6E6E6 /* ArrayPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69BBE11245EC5D200D6E6E6 /* ArrayPairs.swift */; };
+		D6A0DE1C246B12E400541086 /* MarkAndToys.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A0DE1B246B12E400541086 /* MarkAndToys.swift */; };
+		D6A0DE1E246B1A1B00541086 /* FraudulentActivityNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A0DE1D246B1A1B00541086 /* FraudulentActivityNotification.swift */; };
 		D6AFD67C245C111D0021D081 /* MaxSum_HourGlass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AFD67B245C111D0021D081 /* MaxSum_HourGlass.swift */; };
 		D6AFD67E245C2B150021D081 /* DynamicArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AFD67D245C2B150021D081 /* DynamicArray.swift */; };
 		D6AFD6B3245D73A70021D081 /* ArrayManipulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AFD6B2245D73A70021D081 /* ArrayManipulation.swift */; };
@@ -49,6 +51,8 @@
 		D66B316924631DB400810290 /* NewYearChaos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewYearChaos.swift; sourceTree = "<group>"; };
 		D66B316B2464750500810290 /* Ransom_Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ransom_Note.swift; sourceTree = "<group>"; };
 		D69BBE11245EC5D200D6E6E6 /* ArrayPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayPairs.swift; sourceTree = "<group>"; };
+		D6A0DE1B246B12E400541086 /* MarkAndToys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkAndToys.swift; sourceTree = "<group>"; };
+		D6A0DE1D246B1A1B00541086 /* FraudulentActivityNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FraudulentActivityNotification.swift; sourceTree = "<group>"; };
 		D6AFD67B245C111D0021D081 /* MaxSum_HourGlass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxSum_HourGlass.swift; sourceTree = "<group>"; };
 		D6AFD67D245C2B150021D081 /* DynamicArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicArray.swift; sourceTree = "<group>"; };
 		D6AFD6B2245D73A70021D081 /* ArrayManipulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayManipulation.swift; sourceTree = "<group>"; };
@@ -101,6 +105,8 @@
 				D603BAB62466A985005DE362 /* Min_Swaps.swift */,
 				D603BAB82466BE93005DE362 /* Codility.swift */,
 				D660A5E324683E200083228D /* CountTriplets.swift */,
+				D6A0DE1B246B12E400541086 /* MarkAndToys.swift */,
+				D6A0DE1D246B1A1B00541086 /* FraudulentActivityNotification.swift */,
 			);
 			name = Problems;
 			sourceTree = "<group>";
@@ -207,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D603BAB72466A985005DE362 /* Min_Swaps.swift in Sources */,
+				D6A0DE1C246B12E400541086 /* MarkAndToys.swift in Sources */,
 				D6AFD6B3245D73A70021D081 /* ArrayManipulation.swift in Sources */,
 				D66B316C2464750500810290 /* Ransom_Note.swift in Sources */,
 				D6CE73E12455D12800D3F548 /* RuntimeCalculator.swift in Sources */,
@@ -220,6 +227,7 @@
 				D603BA9524647FA8005DE362 /* Two_Strings.swift in Sources */,
 				D603BA972464874B005DE362 /* SherlockAnagrams.swift in Sources */,
 				D66B3101246085D700810290 /* CountingValleys.swift in Sources */,
+				D6A0DE1E246B1A1B00541086 /* FraudulentActivityNotification.swift in Sources */,
 				D66B31072461E07600810290 /* RepeatedString.swift in Sources */,
 				D66B30FF24607C6B00810290 /* SockMerchant.swift in Sources */,
 				D69BBE12245EC5D200D6E6E6 /* ArrayPairs.swift in Sources */,

@@ -195,7 +195,10 @@ override func viewDidLoad() {
         var string = "abccbd"
         print(Codility.solution(&string, &cost))*/
 
-        print(CountTriplets.countTriplets(arr: [1, 3, 9, 9, 27, 81], r: 3))
+        //print(CountTriplets.countTriplets(arr: [1, 3, 9, 9, 27, 81], r: 3))
+        //print(MarkAndToys.maximumToys(prices: [3, 7, 2 ,9, 4], k: 15))
+        print(FraudulentActivityNotification.activityNotifications(expenditure: [1, 2, 3, 4, 4], d: 4))
+        //print(FraudulentActivityNotification.activityNotifications(expenditure: [10, 20, 30, 40, 50], d: 3))
     }
 }
 
