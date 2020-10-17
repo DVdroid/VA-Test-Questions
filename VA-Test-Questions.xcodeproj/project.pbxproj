@@ -11,6 +11,12 @@
 		D603BA972464874B005DE362 /* SherlockAnagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = D603BA962464874B005DE362 /* SherlockAnagrams.swift */; };
 		D603BAB72466A985005DE362 /* Min_Swaps.swift in Sources */ = {isa = PBXBuildFile; fileRef = D603BAB62466A985005DE362 /* Min_Swaps.swift */; };
 		D603BAB92466BE93005DE362 /* Codility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D603BAB82466BE93005DE362 /* Codility.swift */; };
+		D60C1257246DACC100C5B5C8 /* MinBuildingPaintingCost.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60C1256246DACC100C5B5C8 /* MinBuildingPaintingCost.swift */; };
+		D61DE05E25398C0400A17BC6 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61DE05D25398C0400A17BC6 /* Queue.swift */; };
+		D61DE060253AC8BD00A17BC6 /* TurnstileProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61DE05F253AC8BD00A17BC6 /* TurnstileProblem.swift */; };
+		D61DE090253B141A00A17BC6 /* MaxSumOfTwoNumInArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61DE08F253B141A00A17BC6 /* MaxSumOfTwoNumInArray.swift */; };
+		D61DE092253B14B300A17BC6 /* FowlHenEggProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61DE091253B14B300A17BC6 /* FowlHenEggProblem.swift */; };
+		D65D6E2A2473C5D500D008A7 /* StingsHasAllSubStringChars.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65D6E292473C5D500D008A7 /* StingsHasAllSubStringChars.swift */; };
 		D660A5E424683E200083228D /* CountTriplets.swift in Sources */ = {isa = PBXBuildFile; fileRef = D660A5E324683E200083228D /* CountTriplets.swift */; };
 		D66B30FF24607C6B00810290 /* SockMerchant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66B30FE24607C6B00810290 /* SockMerchant.swift */; };
 		D66B3101246085D700810290 /* CountingValleys.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66B3100246085D700810290 /* CountingValleys.swift */; };
@@ -42,6 +48,12 @@
 		D603BA962464874B005DE362 /* SherlockAnagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SherlockAnagrams.swift; sourceTree = "<group>"; };
 		D603BAB62466A985005DE362 /* Min_Swaps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Min_Swaps.swift; sourceTree = "<group>"; };
 		D603BAB82466BE93005DE362 /* Codility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codility.swift; sourceTree = "<group>"; };
+		D60C1256246DACC100C5B5C8 /* MinBuildingPaintingCost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinBuildingPaintingCost.swift; sourceTree = "<group>"; };
+		D61DE05D25398C0400A17BC6 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		D61DE05F253AC8BD00A17BC6 /* TurnstileProblem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurnstileProblem.swift; sourceTree = "<group>"; };
+		D61DE08F253B141A00A17BC6 /* MaxSumOfTwoNumInArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxSumOfTwoNumInArray.swift; sourceTree = "<group>"; };
+		D61DE091253B14B300A17BC6 /* FowlHenEggProblem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FowlHenEggProblem.swift; sourceTree = "<group>"; };
+		D65D6E292473C5D500D008A7 /* StingsHasAllSubStringChars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StingsHasAllSubStringChars.swift; sourceTree = "<group>"; };
 		D660A5E324683E200083228D /* CountTriplets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountTriplets.swift; sourceTree = "<group>"; };
 		D66B30FE24607C6B00810290 /* SockMerchant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SockMerchant.swift; sourceTree = "<group>"; };
 		D66B3100246085D700810290 /* CountingValleys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingValleys.swift; sourceTree = "<group>"; };
@@ -107,6 +119,12 @@
 				D660A5E324683E200083228D /* CountTriplets.swift */,
 				D6A0DE1B246B12E400541086 /* MarkAndToys.swift */,
 				D6A0DE1D246B1A1B00541086 /* FraudulentActivityNotification.swift */,
+				D60C1256246DACC100C5B5C8 /* MinBuildingPaintingCost.swift */,
+				D65D6E292473C5D500D008A7 /* StingsHasAllSubStringChars.swift */,
+				D61DE05D25398C0400A17BC6 /* Queue.swift */,
+				D61DE05F253AC8BD00A17BC6 /* TurnstileProblem.swift */,
+				D61DE08F253B141A00A17BC6 /* MaxSumOfTwoNumInArray.swift */,
+				D61DE091253B14B300A17BC6 /* FowlHenEggProblem.swift */,
 			);
 			name = Problems;
 			sourceTree = "<group>";
@@ -213,6 +231,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D603BAB72466A985005DE362 /* Min_Swaps.swift in Sources */,
+				D60C1257246DACC100C5B5C8 /* MinBuildingPaintingCost.swift in Sources */,
+				D65D6E2A2473C5D500D008A7 /* StingsHasAllSubStringChars.swift in Sources */,
 				D6A0DE1C246B12E400541086 /* MarkAndToys.swift in Sources */,
 				D6AFD6B3245D73A70021D081 /* ArrayManipulation.swift in Sources */,
 				D66B316C2464750500810290 /* Ransom_Note.swift in Sources */,
@@ -222,6 +242,8 @@
 				D6CE73CB2455CEDA00D3F548 /* AppDelegate.swift in Sources */,
 				D6AFD67E245C2B150021D081 /* DynamicArray.swift in Sources */,
 				D6AFD67C245C111D0021D081 /* MaxSum_HourGlass.swift in Sources */,
+				D61DE090253B141A00A17BC6 /* MaxSumOfTwoNumInArray.swift in Sources */,
+				D61DE092253B14B300A17BC6 /* FowlHenEggProblem.swift in Sources */,
 				D660A5E424683E200083228D /* CountTriplets.swift in Sources */,
 				D6CE74352457039200D3F548 /* MaxMinSubsetDiff.swift in Sources */,
 				D603BA9524647FA8005DE362 /* Two_Strings.swift in Sources */,
@@ -235,7 +257,9 @@
 				D6CE73E52455D1CB00D3F548 /* CalculateMinUniqueIDs.swift in Sources */,
 				D66B31052461CFBC00810290 /* JumpingOnTheCloud.swift in Sources */,
 				D66B316824630DB500810290 /* ArrayRotation.swift in Sources */,
+				D61DE060253AC8BD00A17BC6 /* TurnstileProblem.swift in Sources */,
 				D6CE73DF2455CF3C00D3F548 /* FizzBuzz.swift in Sources */,
+				D61DE05E25398C0400A17BC6 /* Queue.swift in Sources */,
 				D6CE73E32455D17D00D3F548 /* CreatePassword.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

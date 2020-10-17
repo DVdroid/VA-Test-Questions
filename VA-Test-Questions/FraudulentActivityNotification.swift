@@ -12,7 +12,7 @@ final class FraudulentActivityNotification {
 
     class func activityNotifications(expenditure: [Int], d: Int) -> Int {
 
-        if expenditure.count < 4 {
+        if expenditure.count < d {
             return 0
         }
 
