@@ -32,7 +32,7 @@ public class Dinosaur: Fowl {
     }
 
     public func lay() -> Egg<FowlType> {
-        return Egg<FowlType>.init(createFowl: {
+        return Egg.init(createFowl: {
             return FowlType()
         })
     }
@@ -47,7 +47,7 @@ public class Hen: Fowl {
     }
 
     public func lay() -> Egg<FowlType> {
-        return Egg<FowlType>.init(createFowl: {
+        return Egg.init(createFowl: {
             return FowlType()
         })
     }

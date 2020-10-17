@@ -16,6 +16,7 @@
 		D61DE060253AC8BD00A17BC6 /* TurnstileProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61DE05F253AC8BD00A17BC6 /* TurnstileProblem.swift */; };
 		D61DE090253B141A00A17BC6 /* MaxSumOfTwoNumInArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61DE08F253B141A00A17BC6 /* MaxSumOfTwoNumInArray.swift */; };
 		D61DE092253B14B300A17BC6 /* FowlHenEggProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61DE091253B14B300A17BC6 /* FowlHenEggProblem.swift */; };
+		D61DE09A253B340800A17BC6 /* FowlHenEggProblemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61DE099253B340800A17BC6 /* FowlHenEggProblemTests.swift */; };
 		D65D6E2A2473C5D500D008A7 /* StingsHasAllSubStringChars.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65D6E292473C5D500D008A7 /* StingsHasAllSubStringChars.swift */; };
 		D660A5E424683E200083228D /* CountTriplets.swift in Sources */ = {isa = PBXBuildFile; fileRef = D660A5E324683E200083228D /* CountTriplets.swift */; };
 		D66B30FF24607C6B00810290 /* SockMerchant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66B30FE24607C6B00810290 /* SockMerchant.swift */; };
@@ -43,6 +44,16 @@
 		D6CE74352457039200D3F548 /* MaxMinSubsetDiff.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CE74342457039200D3F548 /* MaxMinSubsetDiff.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D61DE09C253B340800A17BC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6CE73BF2455CEDA00D3F548 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6CE73C62455CEDA00D3F548;
+			remoteInfo = "VA-Test-Questions";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		D603BA9424647FA8005DE362 /* Two_Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Two_Strings.swift; sourceTree = "<group>"; };
 		D603BA962464874B005DE362 /* SherlockAnagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SherlockAnagrams.swift; sourceTree = "<group>"; };
@@ -53,6 +64,9 @@
 		D61DE05F253AC8BD00A17BC6 /* TurnstileProblem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurnstileProblem.swift; sourceTree = "<group>"; };
 		D61DE08F253B141A00A17BC6 /* MaxSumOfTwoNumInArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxSumOfTwoNumInArray.swift; sourceTree = "<group>"; };
 		D61DE091253B14B300A17BC6 /* FowlHenEggProblem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FowlHenEggProblem.swift; sourceTree = "<group>"; };
+		D61DE097253B340800A17BC6 /* VA-Test-QuestionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VA-Test-QuestionsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D61DE099253B340800A17BC6 /* FowlHenEggProblemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FowlHenEggProblemTests.swift; sourceTree = "<group>"; };
+		D61DE09B253B340800A17BC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D65D6E292473C5D500D008A7 /* StingsHasAllSubStringChars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StingsHasAllSubStringChars.swift; sourceTree = "<group>"; };
 		D660A5E324683E200083228D /* CountTriplets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountTriplets.swift; sourceTree = "<group>"; };
 		D66B30FE24607C6B00810290 /* SockMerchant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SockMerchant.swift; sourceTree = "<group>"; };
@@ -83,6 +97,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D61DE094253B340800A17BC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D6CE73C42455CEDA00D3F548 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -93,6 +114,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D61DE098253B340800A17BC6 /* VA-Test-QuestionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D61DE0A1253B342200A17BC6 /* Problems Tests */,
+				D61DE09B253B340800A17BC6 /* Info.plist */,
+			);
+			path = "VA-Test-QuestionsTests";
+			sourceTree = "<group>";
+		};
+		D61DE0A1253B342200A17BC6 /* Problems Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D61DE099253B340800A17BC6 /* FowlHenEggProblemTests.swift */,
+			);
+			path = "Problems Tests";
+			sourceTree = "<group>";
+		};
 		D66B310824629A2800810290 /* Problems */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				D6CE73C92455CEDA00D3F548 /* VA-Test-Questions */,
+				D61DE098253B340800A17BC6 /* VA-Test-QuestionsTests */,
 				D6CE73C82455CEDA00D3F548 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -141,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				D6CE73C72455CEDA00D3F548 /* VA-Test-Questions.app */,
+				D61DE097253B340800A17BC6 /* VA-Test-QuestionsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -162,6 +202,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D61DE096253B340800A17BC6 /* VA-Test-QuestionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D61DE09E253B340800A17BC6 /* Build configuration list for PBXNativeTarget "VA-Test-QuestionsTests" */;
+			buildPhases = (
+				D61DE093253B340800A17BC6 /* Sources */,
+				D61DE094253B340800A17BC6 /* Frameworks */,
+				D61DE095253B340800A17BC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D61DE09D253B340800A17BC6 /* PBXTargetDependency */,
+			);
+			name = "VA-Test-QuestionsTests";
+			productName = "VA-Test-QuestionsTests";
+			productReference = D61DE097253B340800A17BC6 /* VA-Test-QuestionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		D6CE73C62455CEDA00D3F548 /* VA-Test-Questions */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6CE73DB2455CEDC00D3F548 /* Build configuration list for PBXNativeTarget "VA-Test-Questions" */;
@@ -185,10 +243,14 @@
 		D6CE73BF2455CEDA00D3F548 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1130;
+				LastSwiftUpdateCheck = 1170;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Vikash Anand";
 				TargetAttributes = {
+					D61DE096253B340800A17BC6 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = D6CE73C62455CEDA00D3F548;
+					};
 					D6CE73C62455CEDA00D3F548 = {
 						CreatedOnToolsVersion = 11.3;
 					};
@@ -208,11 +270,19 @@
 			projectRoot = "";
 			targets = (
 				D6CE73C62455CEDA00D3F548 /* VA-Test-Questions */,
+				D61DE096253B340800A17BC6 /* VA-Test-QuestionsTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D61DE095253B340800A17BC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D6CE73C52455CEDA00D3F548 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -226,6 +296,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D61DE093253B340800A17BC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D61DE09A253B340800A17BC6 /* FowlHenEggProblemTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D6CE73C32455CEDA00D3F548 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -266,6 +344,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		D61DE09D253B340800A17BC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6CE73C62455CEDA00D3F548 /* VA-Test-Questions */;
+			targetProxy = D61DE09C253B340800A17BC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		D6CE73D02455CEDA00D3F548 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -286,6 +372,48 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D61DE09F253B340800A17BC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B6LN4XWA2V;
+				INFOPLIST_FILE = "VA-Test-QuestionsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.va.VA-Test-QuestionsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VA-Test-Questions.app/VA-Test-Questions";
+			};
+			name = Debug;
+		};
+		D61DE0A0253B340800A17BC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B6LN4XWA2V;
+				INFOPLIST_FILE = "VA-Test-QuestionsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.va.VA-Test-QuestionsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VA-Test-Questions.app/VA-Test-Questions";
+			};
+			name = Release;
+		};
 		D6CE73D92455CEDC00D3F548 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -439,6 +567,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D61DE09E253B340800A17BC6 /* Build configuration list for PBXNativeTarget "VA-Test-QuestionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D61DE09F253B340800A17BC6 /* Debug */,
+				D61DE0A0253B340800A17BC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D6CE73C22455CEDA00D3F548 /* Build configuration list for PBXProject "VA-Test-Questions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
