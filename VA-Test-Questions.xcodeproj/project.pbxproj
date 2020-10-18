@@ -26,6 +26,8 @@
 		D66B316824630DB500810290 /* ArrayRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66B316724630DB500810290 /* ArrayRotation.swift */; };
 		D66B316A24631DB400810290 /* NewYearChaos.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66B316924631DB400810290 /* NewYearChaos.swift */; };
 		D66B316C2464750500810290 /* Ransom_Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66B316B2464750500810290 /* Ransom_Note.swift */; };
+		D66C659A253B9561006B3CD9 /* StockPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66C6599253B9561006B3CD9 /* StockPrice.swift */; };
+		D66C65A0253BB345006B3CD9 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = D66C659F253BB344006B3CD9 /* Data */; };
 		D69BBE12245EC5D200D6E6E6 /* ArrayPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69BBE11245EC5D200D6E6E6 /* ArrayPairs.swift */; };
 		D6A0DE1C246B12E400541086 /* MarkAndToys.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A0DE1B246B12E400541086 /* MarkAndToys.swift */; };
 		D6A0DE1E246B1A1B00541086 /* FraudulentActivityNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A0DE1D246B1A1B00541086 /* FraudulentActivityNotification.swift */; };
@@ -76,6 +78,8 @@
 		D66B316724630DB500810290 /* ArrayRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayRotation.swift; sourceTree = "<group>"; };
 		D66B316924631DB400810290 /* NewYearChaos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewYearChaos.swift; sourceTree = "<group>"; };
 		D66B316B2464750500810290 /* Ransom_Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ransom_Note.swift; sourceTree = "<group>"; };
+		D66C6599253B9561006B3CD9 /* StockPrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockPrice.swift; sourceTree = "<group>"; };
+		D66C659F253BB344006B3CD9 /* Data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Data; sourceTree = "<group>"; };
 		D69BBE11245EC5D200D6E6E6 /* ArrayPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayPairs.swift; sourceTree = "<group>"; };
 		D6A0DE1B246B12E400541086 /* MarkAndToys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkAndToys.swift; sourceTree = "<group>"; };
 		D6A0DE1D246B1A1B00541086 /* FraudulentActivityNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FraudulentActivityNotification.swift; sourceTree = "<group>"; };
@@ -163,6 +167,7 @@
 				D61DE05F253AC8BD00A17BC6 /* TurnstileProblem.swift */,
 				D61DE08F253B141A00A17BC6 /* MaxSumOfTwoNumInArray.swift */,
 				D61DE091253B14B300A17BC6 /* FowlHenEggProblem.swift */,
+				D66C6599253B9561006B3CD9 /* StockPrice.swift */,
 			);
 			name = Problems;
 			sourceTree = "<group>";
@@ -194,6 +199,7 @@
 				D6CE73D32455CEDC00D3F548 /* Assets.xcassets */,
 				D6CE73D52455CEDC00D3F548 /* LaunchScreen.storyboard */,
 				D6CE73D82455CEDC00D3F548 /* Info.plist */,
+				D66C659F253BB344006B3CD9 /* Data */,
 				D66B310824629A2800810290 /* Problems */,
 			);
 			path = "VA-Test-Questions";
@@ -289,6 +295,7 @@
 			files = (
 				D6CE73D72455CEDC00D3F548 /* LaunchScreen.storyboard in Resources */,
 				D6CE73D42455CEDC00D3F548 /* Assets.xcassets in Resources */,
+				D66C65A0253BB345006B3CD9 /* Data in Resources */,
 				D6CE73D22455CEDA00D3F548 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,6 +331,7 @@
 				D61DE092253B14B300A17BC6 /* FowlHenEggProblem.swift in Sources */,
 				D660A5E424683E200083228D /* CountTriplets.swift in Sources */,
 				D6CE74352457039200D3F548 /* MaxMinSubsetDiff.swift in Sources */,
+				D66C659A253B9561006B3CD9 /* StockPrice.swift in Sources */,
 				D603BA9524647FA8005DE362 /* Two_Strings.swift in Sources */,
 				D603BA972464874B005DE362 /* SherlockAnagrams.swift in Sources */,
 				D66B3101246085D700810290 /* CountingValleys.swift in Sources */,

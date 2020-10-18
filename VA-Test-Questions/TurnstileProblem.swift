@@ -14,16 +14,6 @@ enum TurnstileAction {
     case exited
 }
 
-enum WeekDay: Int {
-    case monday = 1
-    case tuesday
-    case wednesday
-    case thusday
-    case friday
-    case saturday
-    case sunday
-}
-
 final class TurnstileProblem {
 
     //override func viewDidLoad() {

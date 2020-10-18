@@ -243,8 +243,8 @@ class ViewController: UIViewController {
         //print(turnstile.getTimes(time: [3, 3, 3, 4, 4, 5, 6, 6, 7, 8], direction: [1, 1, 0, 1, 0, 0, 0, 1, 0, 0]))
 
 
-        let maxSum = MaxSumOfTwoNumInArray()
-        print(maxSum.findMaxSum(numbers: [5, 9, 7, 11]))
+        //let maxSum = MaxSumOfTwoNumInArray()
+        //print(maxSum.findMaxSum(numbers: [5, 9, 7, 11]))
 
         /*
          let henEgg = Egg<Hen>.init(createFowl: {
@@ -287,6 +287,26 @@ class ViewController: UIViewController {
          }
          */
 
+        let stocks = JSONReader().read()
+        let stockPriceObj = StockPrice(stocks)
+
+        do {
+            let matchingStocks = try stockPriceObj.openAndClosePrices(firstDate: "1-January-2000", lastDate: "1-January-2000", weekday: "Monday")
+            for stock in matchingStocks {
+                print("\(stock.date) \(stock.open) \(stock.close)")
+            }
+        } catch StockError.NoStockError {
+            print("Stock not found.")
+        } catch StockError.InvalidParameterError {
+            print("Invalid parameter.")
+        } catch let error {
+            print(error.localizedDescription)
+        }
+
+        let string = "1-January-2000,22-February-2000,Monday,"
+        let newStr = string.prefix(string.count - 1)
+        let components = newStr.components(separatedBy: ",")
+        print("\(components[0]) \(components[1]) \(components[2])")
     }
 }
 
