@@ -317,8 +317,11 @@ class ViewController: UIViewController {
         //let result = 20
         //Logger.logResult(for: SumOfd3Integers.isSumOfAny3(in: numbers, equals: result))
 
-        let intervals = [(10,12), (12,15)]
-        print(MergeOverlapIntervals.merge(intervals: intervals))
+        //let intervals = [(10,12), (12,15)]
+        //print(MergeOverlapIntervals.merge(intervals: intervals))
+        
+        //print(SecondHighestNumberInArray.secondHighestNumber(in: [1, 2, 2, 5, 5]))
+        print(StringDecodingCount.decode("12345"))
     }
 }
 
