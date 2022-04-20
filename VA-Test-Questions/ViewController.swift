@@ -287,11 +287,12 @@ class ViewController: UIViewController {
          }
          */
 
-        let stocks = JSONReader().read()
-        let stockPriceObj = StockPrice(stocks)
 
+        /*
         do {
-            let matchingStocks = try stockPriceObj.openAndClosePrices(firstDate: "1-January-2000", lastDate: "1-January-2000", weekday: "Monday")
+            let stocks = try JSONReader().read()
+            let stockPriceObj = StockPrice(stocks)
+            let matchingStocks = try stockPriceObj.openAndClosePrices(firstDate: "1-January-2000", lastDate: "22-February-2000", weekday: "Monday")
             for stock in matchingStocks {
                 print("\(stock.date) \(stock.open) \(stock.close)")
             }
@@ -299,6 +300,10 @@ class ViewController: UIViewController {
             print("Stock not found.")
         } catch StockError.InvalidParameterError {
             print("Invalid parameter.")
+        } catch StockError.JSONFileNotFoundError {
+            print("data.json file not found.")
+        } catch StockError.InvalidJSONFormatError {
+            print("Couldn't parse data.json file.")
         } catch let error {
             print(error.localizedDescription)
         }
@@ -306,7 +311,23 @@ class ViewController: UIViewController {
         let string = "1-January-2000,22-February-2000,Monday,"
         let newStr = string.prefix(string.count - 1)
         let components = newStr.components(separatedBy: ",")
-        print("\(components[0]) \(components[1]) \(components[2])")
+        print("\(components[0]) \(components[1]) \(components[2])")*/
+
+        //let numbers = [3, 7, 1, 2, 8, 4, 10]
+        //let result = 20
+        //Logger.logResult(for: SumOfd3Integers.isSumOfAny3(in: numbers, equals: result))
+
+        let intervals = [(10,12), (12,15)]
+        print(MergeOverlapIntervals.merge(intervals: intervals))
     }
 }
 
+enum Logger {
+    static func logResult(for status: Bool) {
+        if status == true {
+            print("Passed ✅")
+        } else {
+            print("Failed ❌")
+        }
+    }
+}

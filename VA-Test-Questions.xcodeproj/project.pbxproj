@@ -28,6 +28,7 @@
 		D66B316C2464750500810290 /* Ransom_Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66B316B2464750500810290 /* Ransom_Note.swift */; };
 		D66C659A253B9561006B3CD9 /* StockPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66C6599253B9561006B3CD9 /* StockPrice.swift */; };
 		D66C65A0253BB345006B3CD9 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = D66C659F253BB344006B3CD9 /* Data */; };
+		D69593EA280FBBF900669793 /* IndexPairInArrayForAGivenSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69593E9280FBBF900669793 /* IndexPairInArrayForAGivenSum.swift */; };
 		D69BBE12245EC5D200D6E6E6 /* ArrayPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69BBE11245EC5D200D6E6E6 /* ArrayPairs.swift */; };
 		D6A0DE1C246B12E400541086 /* MarkAndToys.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A0DE1B246B12E400541086 /* MarkAndToys.swift */; };
 		D6A0DE1E246B1A1B00541086 /* FraudulentActivityNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A0DE1D246B1A1B00541086 /* FraudulentActivityNotification.swift */; };
@@ -44,6 +45,8 @@
 		D6CE73E32455D17D00D3F548 /* CreatePassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CE73E22455D17D00D3F548 /* CreatePassword.swift */; };
 		D6CE73E52455D1CB00D3F548 /* CalculateMinUniqueIDs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CE73E42455D1CB00D3F548 /* CalculateMinUniqueIDs.swift */; };
 		D6CE74352457039200D3F548 /* MaxMinSubsetDiff.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CE74342457039200D3F548 /* MaxMinSubsetDiff.swift */; };
+		D6F4D38826C2F93E005AB3FC /* SumOf3Integers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F4D38726C2F93E005AB3FC /* SumOf3Integers.swift */; };
+		D6F4D38A26C3027E005AB3FC /* MergeOverlapIntervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F4D38926C3027E005AB3FC /* MergeOverlapIntervals.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +83,7 @@
 		D66B316B2464750500810290 /* Ransom_Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ransom_Note.swift; sourceTree = "<group>"; };
 		D66C6599253B9561006B3CD9 /* StockPrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockPrice.swift; sourceTree = "<group>"; };
 		D66C659F253BB344006B3CD9 /* Data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Data; sourceTree = "<group>"; };
+		D69593E9280FBBF900669793 /* IndexPairInArrayForAGivenSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexPairInArrayForAGivenSum.swift; sourceTree = "<group>"; };
 		D69BBE11245EC5D200D6E6E6 /* ArrayPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayPairs.swift; sourceTree = "<group>"; };
 		D6A0DE1B246B12E400541086 /* MarkAndToys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkAndToys.swift; sourceTree = "<group>"; };
 		D6A0DE1D246B1A1B00541086 /* FraudulentActivityNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FraudulentActivityNotification.swift; sourceTree = "<group>"; };
@@ -98,6 +102,8 @@
 		D6CE73E22455D17D00D3F548 /* CreatePassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePassword.swift; sourceTree = "<group>"; };
 		D6CE73E42455D1CB00D3F548 /* CalculateMinUniqueIDs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateMinUniqueIDs.swift; sourceTree = "<group>"; };
 		D6CE74342457039200D3F548 /* MaxMinSubsetDiff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxMinSubsetDiff.swift; sourceTree = "<group>"; };
+		D6F4D38726C2F93E005AB3FC /* SumOf3Integers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOf3Integers.swift; sourceTree = "<group>"; };
+		D6F4D38926C3027E005AB3FC /* MergeOverlapIntervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeOverlapIntervals.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +174,9 @@
 				D61DE08F253B141A00A17BC6 /* MaxSumOfTwoNumInArray.swift */,
 				D61DE091253B14B300A17BC6 /* FowlHenEggProblem.swift */,
 				D66C6599253B9561006B3CD9 /* StockPrice.swift */,
+				D6F4D38726C2F93E005AB3FC /* SumOf3Integers.swift */,
+				D6F4D38926C3027E005AB3FC /* MergeOverlapIntervals.swift */,
+				D69593E9280FBBF900669793 /* IndexPairInArrayForAGivenSum.swift */,
 			);
 			name = Problems;
 			sourceTree = "<group>";
@@ -318,7 +327,10 @@
 				D603BAB72466A985005DE362 /* Min_Swaps.swift in Sources */,
 				D60C1257246DACC100C5B5C8 /* MinBuildingPaintingCost.swift in Sources */,
 				D65D6E2A2473C5D500D008A7 /* StingsHasAllSubStringChars.swift in Sources */,
+				D69593EA280FBBF900669793 /* IndexPairInArrayForAGivenSum.swift in Sources */,
+				D6F4D38826C2F93E005AB3FC /* SumOf3Integers.swift in Sources */,
 				D6A0DE1C246B12E400541086 /* MarkAndToys.swift in Sources */,
+				D6F4D38A26C3027E005AB3FC /* MergeOverlapIntervals.swift in Sources */,
 				D6AFD6B3245D73A70021D081 /* ArrayManipulation.swift in Sources */,
 				D66B316C2464750500810290 /* Ransom_Note.swift in Sources */,
 				D6CE73E12455D12800D3F548 /* RuntimeCalculator.swift in Sources */,

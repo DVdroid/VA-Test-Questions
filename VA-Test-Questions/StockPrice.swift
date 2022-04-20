@@ -67,6 +67,8 @@ extension WeekDay {
 
 public enum StockError: LocalizedError {
     case NoStockError
+    case JSONFileNotFoundError
+    case InvalidJSONFormatError
     case InvalidParameterError
 }
 
@@ -98,9 +100,9 @@ public struct Stock: Decodable {
 
 public class JSONReader {
 
-    func read() -> [Stock] {
-        guard let jsonDataFilePath = Bundle.main.path(forResource: "Data/data", ofType: "json"),
-            let stocks = Bundle.main.decode([Stock].self, atFilePath: jsonDataFilePath) else { return [] }
+    func read() throws -> [Stock] {
+        guard let jsonDataFilePath = Bundle.main.path(forResource: "Data/data", ofType: "json") else { throw StockError.JSONFileNotFoundError }
+        guard let stocks = Bundle.main.decode([Stock].self, atFilePath: jsonDataFilePath) else { throw StockError.InvalidJSONFormatError }
         return stocks
     }
 }

@@ -17,15 +17,15 @@ enum TurnstileAction {
 final class TurnstileProblem {
 
     //override func viewDidLoad() {
-        //super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        //print(getTimes(time: [0, 0, 1, 5], direction: [0, 1, 1, 0]))
-        //print(getTimes(time: [0, 1, 1, 3, 3], direction: [0, 1, 0, 0, 1]))
-        //print(getTimes(time: [3, 3, 3, 4, 4, 5, 6, 6, 7, 8], direction: [1, 1, 0, 1, 0, 0, 0, 1, 0, 0]))
-        //print(getDayOfWeek("11-December-2000") ?? 0)
+    //super.viewDidLoad()
+    // Do any additional setup after loading the view.
+    //print(getTimes(time: [0, 0, 1, 5], direction: [0, 1, 1, 0]))
+    //print(getTimes(time: [0, 1, 1, 3, 3], direction: [0, 1, 0, 0, 1]))
+    //print(getTimes(time: [3, 3, 3, 4, 4, 5, 6, 6, 7, 8], direction: [1, 1, 0, 1, 0, 0, 0, 1, 0, 0]))
+    //print(getDayOfWeek("11-December-2000") ?? 0)
     //}
 
-    func getTimes(time: [Int], direction: [Int]) -> [Int] {
+    func old_getTimes(time: [Int], direction: [Int]) -> [Int] {
 
         var inQueue = QueueArray<Int>()
         var outQueue = QueueArray<Int>()
@@ -33,7 +33,7 @@ final class TurnstileProblem {
         var resultTime: [Int] = .init(repeating: -1, count: time.count)
         var perviousSecondTurnStileAction: TurnstileAction = .notUsed
 
-        guard let startSecond:Int = time.min(), let endSecond:Int = time.max() else { return [] }
+        guard let startSecond:Int = time.first, let endSecond:Int = time.last else { return [] }
         for second in startSecond...endSecond {
             while time[currentIndex] == second {
 
@@ -44,9 +44,6 @@ final class TurnstileProblem {
                 }
 
                 currentIndex += 1
-                if currentIndex == time.count {
-                    break
-                }
             }
 
             switch (inQueue.isEmpty, outQueue.isEmpty) {
@@ -109,5 +106,51 @@ final class TurnstileProblem {
         }
 
         return resultTime
+    }
+
+    func getTimes(time: [Int], direction: [Int]) -> [Int] {
+
+        var inQueue = QueueArray<Int>()
+        var outQueue = QueueArray<Int>()
+        var perviousSecondTurnStileAction: TurnstileAction = .notUsed
+
+        var t = time.first!
+        for index in 0..<time.count {
+            inQueue.enqueue(index, atIndex: direction[index])
+
+            while t < time[index + 1] {
+
+                if !inQueue.isEmpty, perviousSecondTurnStileAction != .exited {
+
+                    let frontElement = inQueue.peek!
+                    t += 1
+                    outQueue[frontElement] = t
+                    inQueue.dequeue()
+                    perviousSecondTurnStileAction = .entered
+
+                } else if (!outQueue.isEmpty) {
+
+                    let frontElement = inQueue.peek!
+                    t += 1
+                    outQueue[frontElement] = t
+                    inQueue.dequeue()
+                    perviousSecondTurnStileAction = .exited
+
+                } else if (!inQueue.isEmpty) {
+
+                    let frontElement = inQueue.peek!
+                    t += 1
+                    outQueue[frontElement] = t
+                    inQueue.dequeue()
+                    perviousSecondTurnStileAction = .entered
+
+                } else {
+                    t = time[index + 1]
+                    perviousSecondTurnStileAction = .notUsed
+                }
+            }
+        }
+
+        return outQueue.elements
     }
 }
